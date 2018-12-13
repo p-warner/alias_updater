@@ -1,0 +1,14 @@
+alias_updater.create_taxonomy:
+  path: '/admin/content/alias_updater/generate_taxonomy'
+  defaults:
+    _title: 'Alias Updater, Generate Taxonomy'
+    _form: '\Drupal\alias_updater\Form\GenerateTaxonomyForm'
+  requirements:
+    _permission: 'administer site configuration'
+alias_updater.simple_convert:
+  path: '/admin/content/alias_updater/simple_convert'
+  defaults:
+    _title: 'Alias Updater, Simple Covnvert'
+    _form: '\Drupal\alias_updater\Form\SimpleConvertForm'
+  requirements:
+    _permission: 'administer site configuration'

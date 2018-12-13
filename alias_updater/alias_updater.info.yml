@@ -1,0 +1,5 @@
+name: Alias Updater
+type: module
+description: Convert existing URLs to SEO friendly ones.
+package: Penn College Modules
+core: 8.x
